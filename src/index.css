@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+html, body, #root { height: 100%; margin: 0; background: #06121b; }
+.glass { background: rgba(8, 26, 38, 0.72); backdrop-filter: blur(10px); border: 1px solid rgba(80, 180, 220, 0.18); border-radius: 0.8rem; box-shadow: 0 8px 30px rgba(0,0,0,0.35); }
+.btn { background: rgba(8, 26, 38, 0.72); backdrop-filter: blur(10px); border: 1px solid rgba(80, 180, 220, 0.18); border-radius: 0.6rem; padding: 0.45rem 0.7rem; font-size: 0.85rem; color: #cfeaf6; }
+.btn:hover { background: rgba(20, 60, 80, 0.8); }
+.label { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.08em; color: #6fb6d6; margin-bottom: 0.4rem; font-weight: 600; }
+::-webkit-scrollbar { width: 8px; } ::-webkit-scrollbar-thumb { background: #16384a; border-radius: 4px; }
